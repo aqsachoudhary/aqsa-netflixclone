@@ -1,0 +1,281 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.signupMaincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.signupineercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48%;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  text-align: center;
+}
+.mainheading {
+  display: flex;
+  width: 80%;
+  color: white;
+  font-size: 51px;
+  text-align: center;
+  padding: 4px 4px;
+}
+.optionheading {
+  display: flex;
+  width: 61%;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  padding: 6px 6px;
+}
+.signupparagraph {
+  display: flex;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+.mainfield {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.signupform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.emailfield {
+  width: 100%;
+  margin: 1px;
+  width: 70%;
+  padding: 20px 5px;
+  background-color: white;
+  border: 0px;
+  outline: 0px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+.button {
+  display: flex;
+  width: 50%;
+  height: 60px;
+  background-color: #e50914;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  padding-left: 40px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .signupMaincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .mainheading {
+    display: flex;
+    width: 80%;
+    color: white;
+    font-size: 51px;
+    text-align: center;
+    padding: 4px 4px;
+  }
+  .optionheading {
+    display: flex;
+    width: 61%;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 6px 6px;
+  }
+  .signupparagraph {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+  .signupform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .emailfield {
+    width: 100%;
+    margin: 1px;
+    width: 70%;
+    padding: 20px 5px;
+    background-color: white;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font-size: 17px;
+  }
+  .button {
+    display: flex;
+    width: 50%;
+    height: 60px;
+    background-color: #e50914;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 40px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .signupineercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+  }
+  .heading {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-align: center;
+  }
+  .mainfield {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .signupMaincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+  }
+  .mainheading {
+    display: flex;
+    width: 80%;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    /* padding: 4px 4px; */
+  }
+  .optionheading {
+    display: flex;
+    width: 61%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    /* padding: 6px 6px; */
+  }
+  .signupparagraph {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+  }
+  .signupform {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+  }
+  .emailfield {
+    width: 100%;
+    /* margin: 1px; */
+    width: 55%;
+    /* padding: 20px 5px; */
+    background-color: white;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 0px 4px;
+    padding: 17px 60px;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    width: 92%;
+    height: 54px;
+    background-color: #e50914;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    padding: 0px 60px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  .signupineercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+  }
+  .heading {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    text-align: center;
+  }
+  .mainfield {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .homecards {
+    background-color: pink;
+  }
+} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .homecards {
+    background-color: blue;
+  } */
+/* } */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .homecards {
+    background-color: orangered;
+  }
+} */

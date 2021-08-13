@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.loginmaincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: brown; */
+  /* height: 100vh; */
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8dc3f88b-a96a-4d8a-af9a-a69e6f3b2506/6aeabaec-7d8e-4451-9294-5b857b74cfed/PK-en-20210524-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+  height: 100vh;
+}

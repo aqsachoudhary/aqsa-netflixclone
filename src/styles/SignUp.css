@@ -1,0 +1,135 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.signupmaincontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background-color: brown; */
+  height: 100vh;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8dc3f88b-a96a-4d8a-af9a-a69e6f3b2506/6aeabaec-7d8e-4451-9294-5b857b74cfed/PK-en-20210524-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+}
+.signupbutton {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  align-items: center;
+  padding: 7px 17px;
+  font-weight: 400;
+  margin: 20px 20px;
+  background-color: #e50914;
+  border: 0px;
+  outline: 0px;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.signinbutton {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* .svg {
+  fill: #e50914;
+  line-height: normal;
+  height: 40px;
+  padding: 25px 0px 0px 50px;
+} */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .signupbutton {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    padding: 7px 17px;
+    font-weight: 400;
+    margin: 20px 20px;
+    background-color: #e50914;
+    border: 0px;
+    outline: 0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .signinbutton {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  /* .svg {
+    fill: #e50914;
+    line-height: normal;
+    height: 40px;
+    padding: 25px 0px 0px 50px;
+  } */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .signupbutton {
+    display: flex;
+    width: 86px;
+    height: 38px;
+    align-items: center;
+    /* padding: 7px 17px; */
+    font-weight: 400;
+    /* margin: 20px 20px; */
+    background-color: #e50914;
+    border: 0px;
+    outline: 0px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .signinbutton {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between;
+    align-items: flex-start; */
+  }
+  /* .svg {
+    fill: #e50914;
+    line-height: normal;
+    height: 40px;
+    padding: 20px 0px 0px 16px;
+  } */
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .homecards {
+    background-color: pink;
+  }
+} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .homecards {
+    background-color: blue;
+  } */
+/* } */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .homecards {
+    background-color: orangered;
+  }
+} */

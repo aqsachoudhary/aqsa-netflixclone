@@ -1,0 +1,249 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.mainhomepage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85vh;
+  background-color: #111;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  background-image: url("https://image.tmdb.org/t/p/topRated/${movie?.backdrop}");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.logoimg {
+  display: flex;
+  width: 7%;
+  height: 7%;
+  align-items: center;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+}
+.buttonsinfo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.insidebutton {
+  background-color: rgba(51, 51, 51, 0.5);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0rem;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin-left: 1.3rem;
+}
+.insidebutton:hover {
+  background-color: white;
+  color: #111;
+}
+.paragraph {
+  line-height: 1.3;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  color: white;
+  margin-left: -4%;
+  padding-left: 70px;
+}
+.emptybanner {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+.headingmoviecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  background-color: #111;
+}
+.movies {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: "50px";
+  object-fit: contain;
+  overflow-x: scroll;
+}
+.movies:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.movies::-webkit-scrollbar {
+  display: none;
+}
+.buttonsdrop {
+  display: flex;
+  border: none;
+  outline: none;
+  background-color: #e50914;
+  color: #fff;
+  padding: 4px;
+  cursor: pointer;
+}
+.opendrop {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  background: rgb(255, 255, 255);
+  width: 6%;
+  bottom: 74%;
+  padding: 2px;
+  background-color: #e50914;
+  cursor: pointer;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+  .logoimg {
+    display: flex;
+    width: 7%;
+    height: 7%;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .paragraph {
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    color: white;
+    margin-left: -4%;
+    padding-left: 70px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+  }
+  .buttonsinfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  .insidebutton {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    margin-left: 1.3rem;
+  }
+  .opendrop {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    background: rgb(255, 255, 255);
+    width: 6%;
+    bottom: 74%;
+    padding: 2px;
+    background-color: #e50914;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .logoimg {
+    display: flex;
+    width: 7%;
+    height: 7%;
+    align-items: center;
+    padding: 26px 50px;
+    cursor: pointer;
+  }
+  .paragraph {
+    line-height: 1.3;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    color: white;
+    margin-left: -17%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0px 0px 18px 0px;
+    padding-left: 20px;
+  }
+  .buttonsinfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  .insidebutton {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 1.3rem;
+  }
+  .opendrop {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 31px;
+    background: rgb(255, 255, 255);
+    width: 12%;
+    bottom: 71%;
+    padding: 10px;
+    background-color: #e50914;
+    cursor: pointer;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .homecards {
+    background-color: pink;
+  }
+} */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .homecards {
+    background-color: blue;
+  } */
+/* } */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .homecards {
+    background-color: orangered;
+  }
+} */
